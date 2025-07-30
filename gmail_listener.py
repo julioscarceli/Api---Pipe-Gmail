@@ -55,7 +55,7 @@ class GmailListener:
 
             try:
                 # 🚨 IP da máquina A com porta 8000 e rota correta
-                response = requests.post("https://b350e818909a.ngrok-free.app/api/autodigitacao", json=parsed)
+                response = requests.post("https://969d3a7dd764.ngrok-free.app/api/autodigitacao", json=parsed)
                 print(f"✅ Resposta da API: {response.status_code} - {response.text}")
             except Exception as e:
                 print("❌ Erro ao enviar para API Flask:", str(e))
